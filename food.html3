@@ -1,0 +1,165 @@
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Львівська кухня</title>
+
+  <!-- CSS для сторінки їжі -->
+  <link rel="stylesheet" href="./food.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">Львівська кухня</div>
+  <nav>
+    <a href="./index.html">Головна</a>
+    <a href="#traditional">Традиційні страви</a>
+    <a href="#sweets">Солодощі</a>
+    <a href="#drinks">Напої</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <h1>Смакуй Львів</h1>
+    <p>
+      Від традиційних страв до солодощів і кави —
+      Львів завжди дивує своїми гастрономічними традиціями.
+    </p>
+  </section>
+
+  <section id="traditional">
+    <h2>Традиційні страви</h2>
+
+    <div class="card-container">
+      <article class="card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Derny.jpg"
+          alt="Деруни">
+
+        <h3>Деруни</h3>
+        <p>
+          Класичні картопляні млинці,
+          які подають зі сметаною або грибним соусом.
+        </p>
+      </article>
+
+      <article class="card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/9/92/Banosh.jpg"
+          alt="Банош">
+
+        <h3>Банош</h3>
+        <p>
+          Кукурудзяна каша з бринзою та шкварками —
+          справжній гуцульський смак.
+        </p>
+      </article>
+
+      <article class="card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Syrniki.jpg"
+          alt="Сирники">
+
+        <h3>Сирники</h3>
+        <p>
+          Смажені сирні оладки з родзинками,
+          медом або варенням.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section id="sweets">
+    <h2>Солодощі</h2>
+
+    <div class="card-container">
+      <article class="card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/8/83/Lviv_Chocolate.jpg"
+          alt="Львівський шоколад">
+
+        <h3>Львівський шоколад</h3>
+        <p>
+          Авторські десерти та шоколадні сувеніри
+          від львівських майстрів.
+        </p>
+      </article>
+
+      <article class="card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Sfogliatelle.jpg"
+          alt="Кондитерські тістечка">
+
+        <h3>Кондитерські тістечка</h3>
+        <p>
+          Сирні, горіхові та фруктові тістечка
+          від відомих львівських кондитерських.
+        </p>
+      </article>
+
+      <article class="card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Cake.jpg"
+          alt="Торти">
+
+        <h3>Торти</h3>
+        <p>
+          Традиційні «Сметанник» та «Медівник»
+          за старовинними рецептами.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section id="drinks">
+    <h2>Напої</h2>
+
+    <div class="card-container">
+      <article class="card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Coffee-cup.jpg"
+          alt="Львівська кава">
+
+        <h3>Львівська кава</h3>
+        <p>
+          Кавʼярні з унікальними сумішами
+          та авторськими способами приготування.
+        </p>
+      </article>
+
+      <article class="card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Beer_Glass.jpg"
+          alt="Крафтове пиво">
+
+        <h3>Крафтове пиво</h3>
+        <p>
+          Місцеві пивоварні з великим вибором
+          сортів і смакових експериментів.
+        </p>
+      </article>
+
+      <article class="card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Compote.jpg"
+          alt="Фруктові напої">
+
+        <h3>Фруктові напої</h3>
+        <p>
+          Компоти та морси зі свіжих ягід —
+          освіжаюча частина львівських традицій.
+        </p>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Львівська кухня. Всі права захищені.</p>
+</footer>
+
+</body>
+</html>
