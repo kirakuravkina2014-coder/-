@@ -1,0 +1,118 @@
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Історія Львова</title>
+
+  <!-- Підключення стилів -->
+  <link rel="stylesheet" href="./history.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">Історія Львова</div>
+  <nav>
+    <a href="./index.html">Головна</a>
+    <a href="./food.html">Їжа</a>
+    <a href="#founding">Заснування</a>
+    <a href="#middle">Середньовіччя</a>
+    <a href="#modern">Сучасність</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <h1>Львів крізь століття</h1>
+    <p>
+      Від легендарного заснування до сучасного культурного центру —
+      Львів має багату історію.
+    </p>
+  </section>
+
+  <section id="founding">
+    <h2>Заснування Львова</h2>
+
+    <div class="card-container">
+      <article class="card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Lviv_old_map.jpg"
+          alt="Старовинна карта Львова">
+
+        <h3>Легенда про короля Данила</h3>
+        <p>
+          Львів засновано у XIII столітті королем Данилом Галицьким.
+          Місто отримало назву на честь його сина — Лева.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section id="middle">
+    <h2>Середньовіччя</h2>
+
+    <div class="card-container">
+      <article class="card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Lviv_old_town.jpg"
+          alt="Старе місто Львова">
+
+        <h3>Розвиток міста</h3>
+        <p>
+          Львів став важливим торговим центром на перехресті
+          шляхів між Заходом і Сходом.
+        </p>
+      </article>
+
+      <article class="card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/03/Lviv_Market_Square.jpg"
+          alt="Площа Ринок">
+
+        <h3>Культурне життя</h3>
+        <p>
+          У місті розвивалися ремесла, ярмарки та багатонаціональна культура:
+          українці, поляки та євреї.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section id="modern">
+    <h2>Сучасність</h2>
+
+    <div class="card-container">
+      <article class="card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Lviv_Rynok_square.jpg"
+          alt="Сучасний Львів">
+
+        <h3>Сьогоднішній Львів</h3>
+        <p>
+          Сьогодні Львів — один із головних культурних
+          і туристичних центрів України.
+        </p>
+      </article>
+
+      <article class="card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Lviv_city.jpg"
+          alt="Панорама Львова">
+
+        <h3>Культурна спадщина</h3>
+        <p>
+          Історичний центр Львова внесено до списку
+          Світової спадщини ЮНЕСКО.
+        </p>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Історія Львова. Всі права захищені.</p>
+</footer>
+
+</body>
+</html>
